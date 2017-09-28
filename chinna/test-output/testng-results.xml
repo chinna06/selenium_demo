@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19775" started-at="2017-08-15T19:45:06Z" finished-at="2017-08-15T19:45:26Z">
+  <suite name="Default suite" duration-ms="18822" started-at="2017-09-27T16:00:43Z" finished-at="2017-09-27T16:01:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19775" started-at="2017-08-15T19:45:06Z" finished-at="2017-08-15T19:45:26Z">
+    <test name="Default test" duration-ms="18822" started-at="2017-09-27T16:00:43Z" finished-at="2017-09-27T16:01:02Z">
       <class name="chinna_demo.chinna.AppTest">
-        <test-method status="PASS" signature="main()[pri:0, instance:chinna_demo.chinna.AppTest@1caeb3e]" name="main" duration-ms="19758" started-at="2017-08-16T01:15:06Z" finished-at="2017-08-16T01:15:26Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:chinna_demo.chinna.AppTest@4ed9f0]" name="main" duration-ms="18803" started-at="2017-09-27T21:30:43Z" finished-at="2017-09-27T21:31:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->

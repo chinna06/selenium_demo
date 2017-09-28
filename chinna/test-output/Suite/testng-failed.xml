@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="chinna.Main">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- chinna.Main -->
+      <class name="chinna.flip">
+        <methods>
+          <include name="quit"/>
+          <include name="buyAndRemoveFromCart"/>
+          <include name="searchAndSelectProduct"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- chinna.flip -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="snap(failed)" parallel="tests">
+    <classes>
+      <class name="chinna.Main">
+        <methods>
+          <include name="init"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="buyAndRemoveFromCart"/>
+          <include name="searchAndSelectProduct"/>
+        </methods>
+      </class> <!-- chinna.Main -->
+      <class name="chinna.flip">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- chinna.flip -->
+    </classes>
+  </test> <!-- snap(failed) -->
+</suite> <!-- Failed suite [Suite] -->
